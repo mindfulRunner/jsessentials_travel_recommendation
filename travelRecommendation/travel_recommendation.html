@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Recommendation</title>
+        <link rel="stylesheet" href="./travel_recommendation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="background-image">
+        <div class="nav">
+            <a href="#" class="nav-item" id="homeLink">Home</a>
+            <a href="#" class="nav-item" id="aboutUsLink">About Us</a>
+            <a href="#" class="nav-item" id="contactUsLink">Contact Us</a>
+            <input type="text" class="nav-item" id="searchText">
+            <button class="nav-item" id="searchButton">Search</button>
+            <button class="nav-item" id="resetButton">Reset</button>
+        </div>
+        <div>
+            <div class="social-media-div">
+                <a href="https://twitter.com/your_twitter_handle" target="_blank"><i class="fab fa-twitter social-media"></i></a>
+                <a href="https://facebook.com/your_facebook_page" target="_blank"><i class="fab fa-facebook social-media"></i></a>
+                <a href="https://www.instagram.com/your_instagram_handle/" target="_blank"><i class="fab fa-instagram social-media"></i></a>
+                <a href="https://www.youtube.com/your_youtube_channel" target="_blank"><i class="fab fa-youtube social-media"></i></a>
+            </div>
+            <div class="main">
+                <div id="home">
+                    <div class="caption">
+                        Most Beautiful Autumn
+                    </div>
+                    <div class="content">
+                        This is Vancouver's autumn.  The lake shares the same color with the blue sky, surrounded by the thick evergreen trees with some fading away their color slowly...
+                    </div>
+                </div>
+                <div id="aboutUs">
+                    <div class="caption">
+                        About Us
+                    </div>
+                    <div class="content">
+                        Travel X is a tourism company acrossing US and Canada.  We connect people across Pacific Ocean to sightsee our most stunning landscapes both at West Coast and at Hawaii...
+
+                        <br/><br/><br/>
+                        <b>Team Members:</b>
+                        <ul>
+                            <li>John Doe, CEO</li>
+                            <li>Jane Doe, Travel Coordinator (Hawaii)</li>
+                            <li>Jean Doe, Travel Coordinator (San Francisco)</li>
+                            <li>Jone Doe, Travel Writer (Vancouver)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="contactUs">
+                    <div class="caption">
+                        Contact Info
+                    </div>
+                    <div class="content">
+                        To contact us, please write to travelx@x.com.
+                        <form id="contactUsForm">
+                            <fieldset>
+                                <label for="name">Name: </label>
+                                <input type="text" id="name" name="name" class="input"><br/><br/>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" class="input"><br/><br/>
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" class="textarea" rows="5" cols="50"></textarea><br/><br/>
+                                <input id="contactUsSubmit" type="submit" value="Submit" class="input-submit">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div id="searchResult">
+                    <div class="caption">
+                        Search Result
+                    </div>
+                    <div class="search-result-content" id="searchResultContent">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="./travel_recommendation.js"></script>
+    </body>
+</html>
