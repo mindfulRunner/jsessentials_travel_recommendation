@@ -85,6 +85,10 @@ function submitContactUs(event) {
 }
 
 function search() {
+    if (searchText.value == "") {
+        alert("use search keyword like `country`, `temple`, or `beach`");
+        return;
+    }
     //
     // call service to get travel info
     //

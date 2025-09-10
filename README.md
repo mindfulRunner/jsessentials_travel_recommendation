@@ -1,12 +1,12 @@
 Travel Recommendation
 
-	An online plant store where users can select / add plant to or remove plant from shopping cart.  The number in the shopping cart is in sync with the number of plants that have been added.
+	- a simple website for travel recommendation with navigation and search
 	
-	The state of the shopping cart is managed by Redux.
+	- all events, actions, effects are controlled by vanilla JavaScript and CSS
 
 	Techs:
 	
-		JavaScript, React, React Hooks, callback, Redux (store, state, action, reducer, dispatcher), shopping cart
+		HTML5, CSS, JavaScript
 
 
 
